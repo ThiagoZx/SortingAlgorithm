@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace SortingAlgorithm
 
         static int size = 10;
         Random r = new Random ();
+        Stopwatch elapsed = new Stopwatch();
         int[] array;
 
         public Form1 () {
@@ -47,9 +49,21 @@ namespace SortingAlgorithm
         }
 
         private void button1_Click (object sender, EventArgs e) {
-            fillArray (size);
-            bubbleSort (array);
-            printArray ();
+            while (size != 2000) {
+                
+                fillArray (size);
+
+                elapsed.Restart ();
+                bubbleSort (array);
+                elapsed.Stop ();
+
+                long w = elapsed.ElapsedMilliseconds;
+                Console.WriteLine (w);
+
+                size += 5;
+                
+            }
+            
         }
     }
 }
