@@ -49,13 +49,14 @@ namespace SortingAlgorithm
                 
                 fillArray (size);
 
-                elapsed.Restart ();
+                elapsed.Start ();
                 bubbleSort (array);
                 elapsed.Stop ();
 
                 long w = elapsed.ElapsedMilliseconds;
-                chart1.Series["Series1"].Points.AddXY(size, w);
-                Console.WriteLine (w);
+                chart1.Series["BubbleSort"].Points.AddXY(size, w);
+
+                chart1.Update();
 
                 size += 5;
                 
