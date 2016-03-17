@@ -14,16 +14,20 @@ namespace SortingAlgorithm
 {
     public partial class Form1 : Form
     {
-
-        static int size = 5;
-        Random r = new Random ();
-        Stopwatch elapsed = new Stopwatch();
-        int[] array;
-
         public Form1 () {
             InitializeComponent ();
         }
 
+        #region variables
+
+        static int size = 5;
+        Random r = new Random ();
+        Stopwatch elapsed = new Stopwatch();
+        SortingMethods sort = new SortingMethods ();
+        int[] array;
+
+        #endregion
+    
         void fillArray (int _size) {
             array = new int[size];
             for (int i = 0; i < _size; i++) {
@@ -31,26 +35,14 @@ namespace SortingAlgorithm
             }
         }
 
-        void bubbleSort (int[] _array) {
-            for (int i = 0; i < _array.Length; i++) {
-                for (int j = i + 1; j < _array.Length; j++) {
-                    if (_array[i] > _array[j]) {
-                        int temp = _array[i];
-                        _array[i] = _array[j];
-                        _array[j] = temp;
-                    }
-                }
-            }
-        }
-
-        private void button1_Click (object sender, EventArgs e) {
+        private void bubbleSort_Button (object sender, EventArgs e) {
 
             while (size != 2000) {
                 
                 fillArray (size);
 
                 elapsed.Start ();
-                bubbleSort (array);
+                sort.bubbleSort (array);
                 elapsed.Stop ();
 
                 long w = elapsed.ElapsedMilliseconds;
@@ -64,4 +56,5 @@ namespace SortingAlgorithm
             
         }
     }
+
 }
