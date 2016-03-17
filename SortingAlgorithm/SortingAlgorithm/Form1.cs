@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Forms;
 
 namespace SortingAlgorithm
@@ -14,7 +15,7 @@ namespace SortingAlgorithm
     public partial class Form1 : Form
     {
 
-        static int size = 10;
+        static int size = 5;
         Random r = new Random ();
         Stopwatch elapsed = new Stopwatch();
         int[] array;
@@ -27,12 +28,6 @@ namespace SortingAlgorithm
             array = new int[size];
             for (int i = 0; i < _size; i++) {
                 array[i] = r.Next (size);
-            }
-        }
-
-        void printArray () {
-            for (int i = 0; i < size; i++) {
-                Console.WriteLine (array[i]);
             }
         }
 
@@ -49,6 +44,7 @@ namespace SortingAlgorithm
         }
 
         private void button1_Click (object sender, EventArgs e) {
+
             while (size != 2000) {
                 
                 fillArray (size);
@@ -58,6 +54,7 @@ namespace SortingAlgorithm
                 elapsed.Stop ();
 
                 long w = elapsed.ElapsedMilliseconds;
+                chart1.Series["Series1"].Points.AddXY(size, w);
                 Console.WriteLine (w);
 
                 size += 5;

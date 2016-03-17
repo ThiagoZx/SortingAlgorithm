@@ -7,3 +7,12 @@ C:\Users\Thiago\Documents\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgori
 C:\Users\Thiago\Documents\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.pdb
 C:\Users\Thiago\Documents\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.exe
 C:\Users\Thiago\Documents\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.pdb
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.exe.config
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.exe
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.pdb
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.Form1.resources
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.Properties.Resources.resources
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.csproj.GenerateResource.Cache
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.exe
+C:\Users\Thiago.Torres\Desktop\GitHub\SortingAlgorithm\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.pdb
