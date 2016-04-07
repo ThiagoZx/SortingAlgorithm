@@ -24,6 +24,7 @@ namespace SortingAlgorithm
         Random r = new Random ();
         Stopwatch elapsed = new Stopwatch();
         SortingMethods sort = new SortingMethods ();
+        SeachMethods search = new SeachMethods ();
         int[] array;
 
         #endregion
@@ -43,6 +44,7 @@ namespace SortingAlgorithm
 
                 elapsed.Start ();
                 sort.bubbleSort (array);
+                //search.linearSeach (element, array);
                 elapsed.Stop ();
 
                 long w = elapsed.ElapsedMilliseconds;
